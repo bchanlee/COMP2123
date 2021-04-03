@@ -39,16 +39,14 @@ Time Complexity: O(log n).
 break_control(A: list, c: int) -> int
 ```
 
-Arguments
+* Arguments
+   * A: Genetic Markers (a sorted list of integers)
+   * c: an integer threshold
 
-* A: Genetic Markers (a sorted list of integers)
-* c: an integer threshold
-
-Returns:
-
-* Integer: A random index of a number that satisfies the condition.
-    * Note: when A is None, then return None
-    * If there is no index that can be returned, then return None.
+* Returns:
+   * Integer: A random index of a number that satisfies the condition.
+       * Note: when A is None, then return None
+       * If there is no index that can be returned, then return None.
 
 Returns a random index i that satisfies:
 

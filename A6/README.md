@@ -7,13 +7,11 @@
 ```
 is_sorted(A: list) -> bool
 ```
-    Arguments:
 
-        A: A list of integers
-
-    Returns:
-
-        boolean (True, False or None if A is None)
+* Arguments:
+    * A: A list of integers
+* Returns:
+    * boolean (True, False or None if A is None)
 
 Returns whether the integers stored in A are sorted in increasing order.
 
